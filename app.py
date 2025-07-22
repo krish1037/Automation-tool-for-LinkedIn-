@@ -25,10 +25,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import initialize_agent, AgentType
 # personal details 
 LINKEDIN_EMAIL = os.environ.get("LINKEDIN_EMAIL", "2023pietcakrish034@poornima.org")
-LINKEDIN_PASSWORD = os.environ.get("LINKEDIN_PASSWORD", "yes567yo")
+LINKEDIN_PASSWORD = os.environ.get("LINKEDIN_PASSWORD", "Enter your own password")
 IMAGE_PATH = os.path.abspath("Screenshots/Screenshot 2025-07-14 152106.png")
 CHROMEDRIVER_PATH = "./chromedriver.exe"
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyA9KuT0uNgJC-rAvwL-FJHQ1M1QNqfvM0w")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "Enter your own Api key")
 # --- Helper Function ---
 def sanitize_for_selenium(text: str) -> str:
     """
